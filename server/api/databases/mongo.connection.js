@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { MONGO_HOST, MONGO_PORT, MONGO_NAME } = require("../../config");
+const { MONGO_HOST, MONGO_PORT, MONGO_NAME, MONGO_PASSWORD } = require("../../config");
 
 function newConnection(uri) {
     const conn = mongoose.createConnection(uri, {
@@ -27,7 +27,7 @@ function newConnection(uri) {
 }
 
 // const URI_MONGO = `mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_NAME}`;
-const URI_MONGO = `mongodb+srv://bmin:kwPZaxGELYHHpZJZ@baonguyendb.4atnpkc.mongodb.net/mobile_backend`;
+const URI_MONGO = `mongodb+srv://bmin:${MONGO_PASSWORD}@baonguyendb.4atnpkc.mongodb.net/mobile_backend`;
 
 const mongoConnection = newConnection(URI_MONGO);
 

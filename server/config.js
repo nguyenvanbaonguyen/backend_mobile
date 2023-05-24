@@ -7,6 +7,7 @@ const DEPLOY_PORT = process.env.DEPLOY_PORT || PORT;
 const MONGO_HOST = process.env.MONGO_HOST || "localhost";
 const MONGO_NAME = process.env.MONGO_NAME || "mobile_btl";
 const MONGO_PORT = process.env.MONGO_PORT || 27017;
+const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
 
 const REDIS_HOST = process.env.REDIS_HOST || "localhost";
 
@@ -28,4 +29,5 @@ module.exports = {
     EMAIL_PASSWORD,
     EMAIL_USERNAME,
     DEPLOY_PORT,
+    MONGO_PASSWORD,
 };

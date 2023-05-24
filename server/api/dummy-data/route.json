@@ -1,0 +1,90 @@
+[
+    {
+        "number": 1,
+        "name": "Chợ Tân Hương - Đại học Quốc Tế",
+        "startTime": "5:00",
+        "endTime": "20:00",
+        "price": 7000,
+        "priceForStudent": 3000,
+        "type": "Phổ thông - Có trợ giá",
+        "minRunTime": 80,
+        "maxRunTime": 90,
+        "distanceTime": 20,
+        "destinations": [
+            "Đường nội bộ Đại học Quốc Gia",
+            "Đại học Quốc Tế",
+            "KTX Khu A - ĐHQG Hồ Chí Minh",
+            "Đại học Khoa học Tự nhiên",
+            "Khu Du lịch Suối Tiên",
+            "Khu Công nghệ cao Quận 9",
+            "Ngã tư Thủ Đức",
+            "UBND Quận 9"
+        ]
+    },
+    {
+        "number": 2,
+        "name": "Đại học quốc gia - Mường Thanh",
+        "startTime": "6:00",
+        "endTime": "21:00",
+        "price": 7000,
+        "priceForStudent": 3000,
+        "type": "Phổ thông - Có trợ giá",
+        "minRunTime": 80,
+        "maxRunTime": 90,
+        "distanceTime": 20,
+        "destinations": [
+            "Đường nội bộ Đại học Quốc Gia",
+            "Đại học Quốc Tế",
+            "KTX Khu A - ĐHQG Hồ Chí Minh",
+            "Đại học Khoa học Tự nhiên",
+            "Khu Du lịch Suối Tiên",
+            "Khu Công nghệ cao Quận 9",
+            "Ngã tư Thủ Đức",
+            "UBND Quận 9"
+        ]
+    },
+    {
+        "number": 30,
+        "name": "Bến thành - Suối tiên",
+        "startTime": "5:00",
+        "endTime": "20:00",
+        "price": 7000,
+        "priceForStudent": 4000,
+        "type": "Phổ thông - Có trợ giá",
+        "minRunTime": 80,
+        "maxRunTime": 90,
+        "distanceTime": 20,
+        "destinations": [
+            "Đường nội bộ Đại học Quốc Gia",
+            "Đại học Quốc Tế",
+            "KTX Khu A - ĐHQG Hồ Chí Minh",
+            "Đại học Khoa học Tự nhiên",
+            "Khu Du lịch Suối Tiên",
+            "Khu Công nghệ cao Quận 9",
+            "Ngã tư Thủ Đức",
+            "UBND Quận 9"
+        ]
+    },
+    {
+        "number": 150,
+        "name": "Bình Dương - Bến Thành",
+        "startTime": "5:00",
+        "endTime": "20:00",
+        "price": 7000,
+        "priceForStudent": 4000,
+        "type": "Phổ thông - Có trợ giá",
+        "minRunTime": 70,
+        "maxRunTime": 80,
+        "distanceTime": 20,
+        "destinations": [
+            "Đường nội bộ Đại học Quốc Gia",
+            "Đại học Quốc Tế",
+            "KTX Khu A - ĐHQG Hồ Chí Minh",
+            "Đại học Khoa học Tự nhiên",
+            "Khu Du lịch Suối Tiên",
+            "Khu Công nghệ cao Quận 9",
+            "Ngã tư Thủ Đức",
+            "UBND Quận 9"
+        ]
+    }
+]

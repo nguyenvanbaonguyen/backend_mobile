@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Đường nội bộ Đại học Quốc Gia",
+        "routes": [1, 2, 30]
+    },
+    {
+        "routes": [1, 2, 150],
+        "name": "Đại học Quốc Tế"
+    },
+    {
+        "routes": [1, 150, 30],
+        "name": "KTX Khu A - ĐHQG Hồ Chí Minh"
+    },
+    {
+        "name": "Đại học Khoa học Tự nhiên",
+        "routes": [1, 2, 30]
+    },
+    {
+        "routes": [1, 2, 30],
+        "name": "Khu Du lịch Suối Tiên"
+    },
+    {
+        "routes": [1, 2, 30],
+        "name": "Khu Công nghệ cao Quận 9"
+    },
+    {
+        "name": "Ngã tư Thủ Đức",
+        "routes": [1, 2, 30]
+    },
+    {
+        "name": "UBND Quận 9",
+        "routes": [1, 2, 30]
+    }
+]

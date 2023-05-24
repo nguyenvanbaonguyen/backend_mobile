@@ -26,7 +26,8 @@ function newConnection(uri) {
     return conn;
 }
 
-const URI_MONGO = `mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_NAME}`;
+// const URI_MONGO = `mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_NAME}`;
+const URI_MONGO = `mongodb+srv://bmin:kwPZaxGELYHHpZJZ@baonguyendb.4atnpkc.mongodb.net/mobile_backend`;
 
 const mongoConnection = newConnection(URI_MONGO);
 

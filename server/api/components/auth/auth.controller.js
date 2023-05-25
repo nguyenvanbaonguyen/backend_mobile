@@ -7,7 +7,7 @@ const register = async (req, res, next) => {
     const { password, phone, email } = req.body;
 
     const isExists = await userModel.findOne({ email });
-    if (isExists) return next(new AppError(`Email ${dataUser.email} has been registed before`, 409));
+    if (isExists) return next(new AppError(`Email ${email} has been registed before`, 409));
 
     const user = new userModel({ password, phone, email });
     const savedUser = await user.save();
